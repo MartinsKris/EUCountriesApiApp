@@ -16,7 +16,6 @@ import static com.example.countriesapi.configuration.TopLimit.topLimit;
 public class GetTopByArea implements GetTop {
 
     ApiController api = new ApiController();
-    String url = api.getUrl();
 
     @GetMapping("/topbyarea")
     @Override

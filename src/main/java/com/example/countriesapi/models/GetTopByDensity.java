@@ -16,7 +16,6 @@ import static com.example.countriesapi.configuration.TopLimit.topLimit;
 public class GetTopByDensity implements GetTop {
 
     ApiController api = new ApiController();
-    String url = api.getUrl();
 
     @GetMapping("/topbydensity")
     @Override
